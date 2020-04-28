@@ -49,7 +49,7 @@ class FacialKeypointsDataset(Dataset):
     
 # tranforms
 
-class Normalize(object):
+class Normalizer(object):
     """Convert a color image to grayscale and normalize the color range to [0,1]."""        
 
     def __call__(self, sample):
